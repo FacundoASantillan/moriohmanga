@@ -505,6 +505,7 @@ footer div div ul li{
     }
     .buscar{
         padding-top: 15px;
+        margin-right: 20px;
     }
     .buscar input{
         width: 180px;
@@ -544,10 +545,7 @@ footer div div ul li{
 }
 main section div a img{
     display: center;
-    width: 95%;
-    position: relative;
-    left: 3px;
-    
+    width: 100%;
 }
 
 
@@ -568,22 +566,21 @@ main section div a img{
 .productos-index h3 {
     font-size: 15px;
     margin-top: 10px;
-    
     margin-left: 35px;
     margin-bottom: 5px;
 }
 main section div div ul
 {
     list-style: none;
+
 }
 .mas ul li a {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     text-decoration: none;
     position: relative;
-    left: 440px;
-    top: 25px;
-
+    left: 450px;
+    top: 235rem;
     color: #e1aa47;
 }
 
@@ -604,7 +601,7 @@ justify-content: center;
 .catalogo-index h5{
     color: #e1aa47;
 font-size: 20px;
-text-align: start;
+text-align: center;
 }
 .catalogo-index div{
     text-align: center;
@@ -612,7 +609,8 @@ text-align: start;
     width: 300px;
     height: 600px;
     display: inline-block;
-    margin: 60px;
+    margin: 10px;
+    margin-top: 20px;
 }
 .catalogo-index div h4{
     margin-bottom: 30px;
@@ -631,10 +629,18 @@ text-align: start;
 }
 /*---------- FOOTER ----------*/
 footer{
-    display: block;
+    display: grid;
+    grid-template-columns: auto;
+    grid-area: auto;
     margin: 20px;
     
+;
 
+}
+.redes-footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 .redes-footer img{
     width: 50px;
@@ -647,7 +653,12 @@ footer{
 
 .pagos-footer{
     position: relative;
-    left: 30px;
+    left: 110px;
+}
+.pagos-footer h2{
+    position: relative;
+    left: 40px;
+
 }
 .pagos-footer div div{
     display: grid;
@@ -681,14 +692,17 @@ footer div div ul li{
     top: 10px;
     right: 45px;
 }
-
+.envios-titulo{
+    display: flex;
+    justify-content: center;
+}
 .envios-img{
     display: grid;
     grid-template-rows: 20px;
-    grid-template-columns: 20px ;
+    grid-template-columns: 20px;
     position: relative;
     top: 10px;
-    left: 30px;
+    left: 170px;
     margin-bottom: 120px;
 
 }
@@ -700,6 +714,11 @@ footer div div ul li{
     right: 50px;
     top: 100px;
     ;
+}
+.masinfo-titulo{
+    position: relative;
+    left: 140px;
+    margin-top: 10px;
 }
 }
 
