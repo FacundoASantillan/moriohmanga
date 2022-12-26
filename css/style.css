@@ -491,18 +491,21 @@ footer div div ul li{
 
 /*---------- HEADER ----------*/
 @media screen and (max-width:578px) {
-
+    header nav div {
+        position: relative;
+        left: 20px;
+    }
     header nav a img {
-        width: 70px;
+        width: 30px;
         margin: 20px;
         display: flex;
         justify-content: center;
     }
     .buscar{
-        padding-top: 50px;
+        padding-top: 25px;
     }
     .buscar input{
-        width: 400px;
+        width: 200px;
         height: 20px;
         padding: 5px;
         color: black;
@@ -515,16 +518,17 @@ footer div div ul li{
     header nav ul {
         display: block;
         justify-content: flex-end;
-        margin: 40px;
+        
         list-style: none;
         padding-bottom: 20px;
-        margin-left: 250px;
+        ;
     }
     header nav ul li a{
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
         color: grey;
         margin: 5px;
+        font-size: 10px
         ;
     }
     
