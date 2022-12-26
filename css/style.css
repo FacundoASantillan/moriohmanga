@@ -502,7 +502,7 @@ footer div div ul li{
         padding-top: 15px;
     }
     .buscar input{
-        width: 200px;
+        width: 180px;
         height: 20px;
         padding: 5px;
         color: black;
@@ -515,7 +515,7 @@ footer div div ul li{
     header nav ul {
         display: block;
         position: relative;
-        right: 30px;
+        right: 70px;
         bottom: 30px;
         list-style: none;
         padding-bottom: 20px;
@@ -534,39 +534,38 @@ footer div div ul li{
 
 /*---------- INDEX ---------*/
 .banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    bottom: 20px;
 }
 main section div a img{
-    display: inline-block;
+    display: center;
     width: 80%;
     position: relative;
-    left: 20px;
+    left: 10px;
     
 }
 
 
 .novedades-mas{
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    
 }
 
 
 .productos-index h2{
     color: #8f1a26;;
-    font-size: 80px;
+    font-size: 20px;
     font-family:'Poppins', sans-serif ;
     position: relative;
-    left: 65px
+    left: 35px
     ;
 } 
 .productos-index h3 {
-    font-size: 40px;
-    margin-top: 90px;
-    position: relative;
-    top: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    
     margin-left: 35px;
+    margin-bottom: 5px;
 }
 main section div div ul
 {
