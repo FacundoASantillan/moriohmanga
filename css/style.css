@@ -489,47 +489,42 @@ footer div div ul li{
 
 /*---------- MEDIA QUERY ---------- */
 
-/*---------- REGISTRO ----------*/
-@media screen and (max-width:1110px) {
-    .formulario-registro{
-        position: relative;
-        left: 80px;
-        
+/*---------- HEADER ----------*/
+@media screen and (max-width:578px) {
+    header nav a img {
+        width: 70px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
     }
-}
-
-@media screen and (max-width:895px) {
-    .formulario-registro{
-        position: relative;
-        left: 200px;
+    .buscar{
+        padding-top: 50px;
+    }
+    .buscar input{
+        width: 400px;
+        height: 20px;
+        padding: 5px;
+        color: black;
+        outline: none;
+        border-radius: 30px;
+        background-color: white;
+        border: 1px solid #8f1a26 ;
+    }
     
+    header nav ul {
+        display: flex;
+        justify-content: flex-end;
+        margin: 40px;
+        list-style: none;
+        padding-bottom: 20px;
     }
-    .formulario-registro{
-        width: 500px;
-        padding: 30px;
-        margin:auto;
-        
+    header nav ul li a{
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        color: grey;
+        margin: 10px;
     }
-    .iniciar-boton{
-        left: 35%;
-    }
-}
-@media screen and (max-width:772px) {
-    .formulario-registro{
-        position: relative;
-        left: 200px;
-    }
-}
-@media screen and (max-width:642px) {
-    .formulario-registro{
-        position: relative;
-        left: 300px;
-    }
+    
+    
 }
 
-@media screen and (max-width:436px) {
-    .formulario-registro{
-        position: relative;
-        left: 350px;
-    }
-}
