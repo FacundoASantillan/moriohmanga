@@ -491,6 +491,10 @@ footer div div ul li{
 
 /*---------- HEADER ----------*/
 @media screen and (max-width:578px) {
+    header nav div {
+        position: relative;
+        left: 120px;
+    }
     header nav a img {
         width: 70px;
         margin: 20px;
@@ -512,17 +516,19 @@ footer div div ul li{
     }
     
     header nav ul {
-        display: flex;
+        display: block;
         justify-content: flex-end;
         margin: 40px;
         list-style: none;
         padding-bottom: 20px;
+        margin-left: 250px;
     }
     header nav ul li a{
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
         color: grey;
-        margin: 10px;
+        margin: 5px;
+        ;
     }
     
     
