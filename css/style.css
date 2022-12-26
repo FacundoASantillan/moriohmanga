@@ -490,13 +490,18 @@ footer div div ul li{
 /*---------- MEDIA QUERY ---------- */
 
 /*---------- HEADER ----------*/
-@media screen and (max-width:603px) {
-
+@media screen and (max-width:578px) {
+    header nav{
+        position: relative;
+        left: 40px;
+    }
     header nav a img {
         width: 30px;
         margin: 10px;
         display: flex;
         justify-content: center;
+    ;
+    
     }
     .buscar{
         padding-top: 15px;
@@ -539,9 +544,9 @@ footer div div ul li{
 }
 main section div a img{
     display: center;
-    width: 80%;
+    width: 95%;
     position: relative;
-    left: 10px;
+    left: 3px;
     
 }
 
@@ -576,8 +581,9 @@ main section div div ul
     font-size: 15px;
     text-decoration: none;
     position: relative;
-    ;
-    ;
+    left: 440px;
+    top: 25px;
+
     color: #e1aa47;
 }
 
@@ -589,8 +595,8 @@ grid-template-columns: auto;
 justify-content: center;
 }
 .catalogo-index img{
-    width: 125px;
-    height: 175px;
+    width: 300px;
+    height: 375px;
 }
 .catalogo-index div h3{
     padding: 10px;
