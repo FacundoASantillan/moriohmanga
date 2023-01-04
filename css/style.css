@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,900;1,700&family=Teko:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,900;1,700&family=Simonetta:wght@900&family=Teko:wght@600&display=swap');
-
-/*font-family: 'Poppins', sans-serif;
-font-family: 'Teko', sans-serif;*/
-
-/*font-family: 'Simonetta', cursive;
-font-family: 'Teko', sans-serif;*/
-
-
 *{
     margin: 0;
     padding: 0;
@@ -15,18 +7,12 @@ font-family: 'Teko', sans-serif;*/
 }
 *{
     background-color: #ffebbe;
-;
 }
-
-
 /*---------- HEADER ----------*/
-
 header nav div {
     display: flex;
     justify-content: space-between;
-    ;
 }
-
 header nav a img {
     width: 150px;
     margin: 20px;
@@ -45,7 +31,6 @@ header nav a img {
     background-color: white;
     border: 1px solid #8f1a26 ;
 }
-
 header nav ul {
     display: flex;
     justify-content: flex-end;
@@ -59,16 +44,6 @@ header nav ul li a{
     color: grey;
     margin: 10px;
 }
-
-/*header nav ul li a:hover{
-    color: #8f1a26;
-    transition-duration: 2s;
-}/*
-
-
-
-
-
 /*---------- MAIN ----------*/ 
 
 /*---------- INDEX ---------*/
@@ -80,25 +55,19 @@ header nav ul li a{
 main section div a img{
     display: inline-block;
     width: 88rem;
-    
 }
-
-
 .novedades-mas{
     display: flex;
     justify-content: space-between;
 }
-
-
 .productos-index h2{
     color: #8f1a26;;
     font-size: 80px;
     font-family:'Poppins', sans-serif ;
     position: relative;
-    left: 65px
-    ;
+    left: 65px;
 } 
-.productos-index h3 {
+.productos-index h3{
     font-size: 40px;
     margin-top: 90px;
     position: relative;
@@ -109,7 +78,7 @@ main section div div ul
 {
     list-style: none;
 }
-.mas ul li a {
+.mas ul li a{
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
     text-decoration: none;
@@ -118,12 +87,10 @@ main section div div ul
     right: 60px;
     color: #e1aa47;
 }
-
 .mas ul li a:hover{
     color: #8f1a26;
     transition-duration: 3s;
 }
-
 .catalogo-index{
 display: grid;
 grid-template-columns: auto auto auto;
@@ -159,22 +126,18 @@ text-align: start;
     background-color: #8f1a26;
     padding: 15px;
 }
-
 .catalogo-index div a:hover{
     background-color: #e1aa47;
     transition-duration: 2s;
 }
-
 /*---------- PRODUCTOS ----------*/
-
 .productos{
     display: grid;
     grid-template-columns: auto auto auto;
     position: relative;
     top: 80px;
 }
-
-aside {
+aside{
     position: relative;
     left: 20px;
     padding: 20px;
@@ -186,20 +149,16 @@ aside {
     color: #8f1a26;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    
 }
-
 .aside{
     display: grid 500px 500px 500px;
 }
-
 .productos h2{
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
     color: #e1aa47;
     font-weight: 400;
 }
-
 .aside-productos h3{
     font-size: 35px;
     color: gray;
@@ -211,42 +170,33 @@ aside {
     text-decoration: none;
     color: #8f1a26;
 }
-
 .aside-productos ul li a:hover{
     color: #e1aa47;
     transition-duration: 3s;
 }
-
 .aside-editoriales h3{
     font-size: 35px;
     color: gray;
     position: relative;
     margin-top: 100px;
 }
-
 .aside-editoriales ul{
     list-style: none;
 }
-
 .aside-editoriales ul li a{
     font-size: 25px;
     text-decoration: none;
     color: #8f1a26;
 }
-
 .aside-editoriales ul li a:hover{
     color: #e1aa47;
     transition-duration: 3s;
 }
-
-
-
 .productos-catalogo{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
 }
-
 .productos-catalogo img{
         width: 300px;
         height: 400px;
@@ -277,18 +227,14 @@ aside {
     background-color: #8f1a26;
     padding: 15px;
 }
-
 .productos-catalogo div a:hover{
     background-color: #e1aa47;
     transition-duration: 2s;
 }
-
 .productos-catalogo{
     margin-bottom: 100px;
 }
-
 /*---------- INICIAR SESION ----------*/
-
 .IN-SE h1{
     display: flex;
     justify-content: center;
@@ -296,16 +242,12 @@ aside {
     color: #8f1a26;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-
 }
-
 .formulario-registro{
     width: 400px;
     padding: 30px;
     margin:auto;
-    
 }
-
 .controls{
     width: 100%;
     background: white;
@@ -314,7 +256,6 @@ aside {
     margin-bottom: 16px;
     border: 1px solid #8f1a26 ;
 }
-
 .iniciar-boton{
     margin-top: 18px;
     position: relative;
@@ -328,26 +269,22 @@ aside {
     padding: 15px;
     border-radius: 3px;
 }
-
 .iniciar-crearcuenta{
     margin-top: 50px;
     display: flex;
     justify-content: center;
     margin: 40px;
 }
-
 .iniciar-crearcuenta a{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #8f1a26;
     text-decoration: none;
 }
-
 .iniciar-crearcuenta h3{
     font-size: 20px;
 }
 /*---------- CREAR CUENTA ----------*/
-
 .crear-count{
     margin-bottom: 20px;
 }
@@ -360,18 +297,14 @@ aside {
     font-weight: 700;
     margin-bottom: 30px;
 }
-
 .crear-count p{
     text-align: center;
     font-family: 'Poppins', sans-serif
 }
-
 /*---------- NOSOTROS ----------*/
-
 .nosotros-inicio{
     display: flex;
 }
-
 .nosotros-inicio h1{
     display: flex;
     justify-content: center;
@@ -381,7 +314,6 @@ aside {
     font-weight: 700;
     margin-bottom: 50px;
 }
-
 .nosotros-inicio img{
     width: 30%;
     align-items: center;
@@ -389,41 +321,34 @@ aside {
     left: 35%;
     margin-bottom: 50px;
 }
-
 .nosotros-inicio p{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 38px;
     margin: 20px;
 }
-
 .nosotros-inicio iframe{
     position: relative;
     left: 35%;
     margin-top: 20px;
 }
-
 .nosotros-galeria{
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 20px;
     margin-bottom: 50px;
 }
-
-
 .nosotros-galeria img{
     width: 20%;
     margin: 20px;
     position: relative;
     left: 5%;
 }
-
 /*---------- FOOTER ----------*/
 footer{
     display: flex;
     justify-content: space-between;
     position: relative;
-    ;
 }
 .redes-footer img{
     width: 50px;
@@ -433,7 +358,6 @@ footer{
     left: 50px;
     margin-top: 20px;
 }
-
 .pagos-footer{
     position: relative;
     left: 30px;
@@ -458,7 +382,6 @@ footer div h2{
 footer div ul li a{
     text-decoration: none;
     color: #8f1a26;
-    
 }
 footer div div ul li{
     font-family: 'Poppins', sans-serif;
@@ -468,7 +391,6 @@ footer div div ul li{
     top: 20px;
     right: 45px;
 }
-
 .envios-img{
     display: grid;
     grid-template-rows: 20px;
@@ -476,9 +398,7 @@ footer div div ul li{
     position: relative;
     top: 10px;
     left: 30px;
-
 }
-
 .envios img{
     width: 120px;
     height: 60px;
@@ -486,56 +406,39 @@ footer div div ul li{
     right: 50px;
     top: 100px;
 }
-
 /*---------- MEDIA QUERY ---------- */
-
 @media screen and (max-width:578px) {
 /*---------- HEADER ----------*/
 header nav{
     position: relative;
     left: 40px;
 }
-header nav a img {
+header nav a img{
     width: 30px;
-        margin: 10px;
-        display: flex;
-        justify-content: center;
-    ;
-    
-    }
-    .buscar{
-        padding-top: 15px;
-        margin-right: 20px;
-    }
-    .buscar input{
-        width: 180px;
-        height: 20px;
-        padding: 5px;
-        color: black;
-        outline: none;
-        border-radius: 30px;
-        background-color: white;
-        border: 1px solid #8f1a26 ;
-    }
-    
-    header nav ul {
-        display: block;
-        position: relative;
-        right: 70px;
-        bottom: 30px;
-        list-style: none;
-        padding-bottom: 20px;
-        ;
-    }
-    header nav ul li a{
-        text-decoration: none;
-        font-family: 'Poppins', sans-serif;
-        color: grey;
-        margin: 3px;
-        font-size: 8px
-        ;
-    }
-    
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.buscar{
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.buscar input{
+    width: 180px;
+    height: 20px;
+    padding: 5px;
+}
+header nav ul{
+    display: block;
+    position: relative;
+    right: 70px;
+    bottom: 30px;
+    padding-bottom: 20px;
+}
+header nav ul li a{
+    margin: 3px;
+    font-size: 8px;
+}
 /*---------- MAIN ----------*/ 
 
 /*---------- INDEX ---------*/
@@ -547,45 +450,26 @@ main section div a img{
     display: center;
     width: 100%;
 }
-
-
 .novedades-mas{
     display: block;
-    
 }
-
-
 .productos-index h2{
-    color: #8f1a26;;
     font-size: 20px;
-    font-family:'Poppins', sans-serif ;
     position: relative;
-    left: 35px
-    ;
+    left: 35px;
 } 
-.productos-index h3 {
+.productos-index h3{
     font-size: 15px;
     margin-top: 10px;
     margin-left: 35px;
     margin-bottom: 5px;
 }
-main section div div ul
-{
-    list-style: none;
-
-}
-.mas ul li a {
-    font-family: 'Poppins', sans-serif;
+.mas ul li a{
     font-size: 15px;
-    text-decoration: none;
     position: relative;
     left: 450px;
     top: 235rem;
-    color: #e1aa47;
 }
-
-
-
 .catalogo-index{
 display: grid;
 grid-template-columns: auto;
@@ -599,7 +483,6 @@ justify-content: center;
     padding: 10px;
 }
 .catalogo-index h5{
-    color: #e1aa47;
 font-size: 20px;
 text-align: center;
 }
@@ -612,33 +495,13 @@ text-align: center;
     margin: 10px;
     margin-top: 20px;
 }
-.catalogo-index div h4{
-    margin-bottom: 30px;
-}
-.catalogo-index div a{
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    background-color: #8f1a26;
-    padding: 15px;
-}
-
-.catalogo-index div a:hover{
-    background-color: #e1aa47;
-    transition-duration: 2s;
-}
-
 /*---------- NOSOTROS ----------*/
 .nosotros-inicio h1{
     display: flex;
     justify-content: center;
     font-size: 45px;
-    color: #8f1a26;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     margin-bottom: 50px;
 }
-
 .nosotros-inicio img{
     width: 50%;
     align-items: center;
@@ -646,22 +509,18 @@ text-align: center;
     left: 25%;
     margin-bottom: 50px;
 }
-
 .nosotros-inicio p{
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     margin: 20px;
     text-align: center;
 }
-
 .nosotros-inicio iframe{
     position: relative;
     left: 22%;
     margin-top: 20px;
     width: 55%;
 }
-
 .nosotros-galeria{
     display: grid;
     grid-template-columns: auto;
@@ -669,26 +528,19 @@ text-align: center;
     margin-bottom: 50px;
     position: relative;
     left: 15%;
-
 }
-
-
 .nosotros-galeria img{
     width: 50%;
     margin: 20px;
     position: relative;
     left: 5%;
 }
-
 /*---------- FOOTER ----------*/
 footer{
     display: grid;
     grid-template-columns: auto;
     grid-area: auto;
     margin: 20px;
-    
-;
-
 }
 .redes-footer{
     display: flex;
@@ -703,7 +555,6 @@ footer{
     left: 50px;
     margin-top: 20px;
 }
-
 .pagos-footer{
     position: relative;
     left: 110px;
@@ -711,7 +562,6 @@ footer{
 .pagos-footer h2{
     position: relative;
     left: 40px;
-
 }
 .pagos-footer div div{
     display: grid;
@@ -727,20 +577,11 @@ footer div{
     margin: 0px 50px;
 }
 footer div h2{
-    font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    color: grey;
     font-size: 20px;
-}
-footer div ul li a{
-    text-decoration: none;
-    color: #8f1a26;
-    
 }
 footer div div ul li{
-    font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    list-style: none;
     position: relative;
     top: 10px;
     right: 45px;
@@ -757,16 +598,13 @@ footer div div ul li{
     top: 10px;
     left: 170px;
     margin-bottom: 120px;
-
 }
-
 .envios img{
     width: 120px;
     height: 60px;
     position: relative;
     right: 50px;
     top: 100px;
-    ;
 }
 .masinfo-titulo{
     position: relative;
