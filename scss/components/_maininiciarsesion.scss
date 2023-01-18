@@ -1,0 +1,55 @@
+main{
+    .IN-SE{
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+            color: nth($colores, 1);
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+        }
+    }
+    .formulario-registro{
+        width: 400px;
+        padding: 30px;
+        margin:auto;
+        div{
+            .controls{
+                width: 100%;
+                background: nth($colores, 4);
+                padding: 10px;
+                border-radius: 4px;
+                margin-bottom: 16px;
+                border: 1px solid #8f1a26;
+            }
+        }
+    }
+    .iniciar-boton{
+        margin-top: 18px;
+        position: relative;
+        left: 100px;
+        a{
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            color: nth($colores, 4);
+            background-color: nth($colores, 1);
+            padding: 15px;
+            border-radius: 3px;
+        }
+    }
+    .iniciar-crearcuenta{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        h3{
+            font-size: 20px;
+        }
+        a{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            color: nth($colores, 1);
+            text-decoration: none;
+        }
+    }
+}

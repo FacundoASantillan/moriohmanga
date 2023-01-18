@@ -1,0 +1,20 @@
+main{
+    .formulario-registro{
+        .crear-count{
+            margin-bottom: 20px;
+            h1{
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                color: nth($colores, 1);
+                font-family: 'Poppins', sans-serif;
+                font-weight: $titulo-principal;
+                margin-bottom: 30px;
+            }
+            p{
+                text-align: center;
+                font-family: 'Poppins', sans-serif
+            }
+        }
+    }
+}

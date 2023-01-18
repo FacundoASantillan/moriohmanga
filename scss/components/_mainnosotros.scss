@@ -1,0 +1,48 @@
+main{
+    .nosotros-inicio{
+        display: flex;
+        div{
+            h1{
+                display: flex;
+                justify-content: center;
+                font-size: 60px;
+                color: nth($colores, 1);
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                margin-bottom: 50px;
+            }
+            img{
+                width: 30%;
+                align-items: center;
+                position: relative;
+                left: 35%;
+                margin-bottom: 50px;
+            }
+            p{
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                font-size: 38px;
+                margin: 20px;
+            }
+            iframe{
+                position: relative;
+                left: 35%;
+                margin-top: 20px;
+            }
+        }
+    }
+    .nosotros-galeria{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 20px;
+        margin-bottom: 50px;
+        div{
+            img{
+                width: 20%;
+                margin: 20px;
+                position: relative;
+                left: 5%;
+            }
+        }
+    }
+}

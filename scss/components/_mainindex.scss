@@ -1,0 +1,82 @@
+main{
+    .productos-index{
+        div{
+            h3{
+                font-size: 40px;
+                margin-top: 90px;
+                position: relative;
+                top: 5px;
+                margin-left: 35px;
+            }
+            .novedades-mas{
+                display: flex;
+                justify-content: space-between;
+            }
+            h2{
+                color: nth($colores, 1);
+                font-size: 80px;
+                font-family:'Poppins', sans-serif;
+                font-weight: 700;
+                position: relative;
+                left: 65px;
+            }
+            .mas{
+                ul{
+                    list-style: none;
+                    li{
+                        a{
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 45px;
+                            text-decoration: none;
+                            position: relative;
+                            top: 60px;
+                            right: 60px;
+                            color: nth($colores, 2);
+                            &:hover{
+                                color: nth($colores, 1);
+                                transition-duration: 3s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .catalogo-index{
+        @extend %grid;
+        div{
+            text-align: center;
+            border: 1px solid #ffebbe;
+            width: 300px;
+            height: 600px;
+            display: inline-block;
+            margin: 60px;
+            img{
+                width: 300px;
+                height: 400px;
+            }
+            h5{
+                color: nth($colores, 2);
+                font-size: 20px;
+                text-align: start;
+            }
+            h3{
+                padding: 10px;
+            }
+            h4{
+                margin-bottom: 30px;
+            }
+            a{
+                text-decoration: none;
+                font-family: 'Poppins', sans-serif;
+                color: nth($colores, 4);
+                background-color: nth($colores, 1);
+                padding: 15px;
+                &:hover{
+                    background-color: nth($colores, 2);
+                    transition-duration: 2s;
+                }
+            }
+        }
+    }
+}

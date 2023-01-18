@@ -1,0 +1,116 @@
+main{
+    .productos-titulo{
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: 70px;
+            color: #8f1a26;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+        }
+    }
+    .productos{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        position: relative;
+        top: 80px;
+        aside{
+            position: relative;
+            left: 20px;
+            padding: 20px;
+            display: grid 500px 500px 500px;
+            h2{
+                font-size: 30px;
+                font-family: 'Poppins', sans-serif;
+                color: nth($colores, 2);
+                font-weight: 400;
+            }
+            .aside-productos{
+                h3{
+                    font-size: 35px;
+                    color: nth($colores, 3);
+                    position: relative;
+                    margin-top: 100px;
+                }
+                div{
+                    ul{
+                        list-style: none;
+                        li{
+                            a{
+                                font-size: 25px;
+                                text-decoration: none;
+                                color: nth($colores, 1);
+                                &:hover{
+                                    color: nth($colores, 2);
+                                    transition-duration: 3s;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .aside-editoriales{
+                h3{
+                    font-size: 35px;
+                    color: nth($colores, 3);
+                    position: relative;
+                    margin-top: 100px;
+                }
+                ul{
+                    list-style: none;
+                    li{
+                        a{
+                            font-size: 25px;
+                            text-decoration: none;
+                            color: nth($colores, 1);
+                            &:hover{
+                                color: nth($colores, 2);
+                                transition-duration: 3s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .productos-catalogo{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            margin-bottom: 100px;
+            div{
+                text-align: center;
+                border: 1px solid #ffebbe;
+                width: 300px;
+                height: 600px;
+                display: inline-block;
+                margin: 60px;
+                img{
+                    width: 300px;
+                    height: 400px;
+                }
+                h5{
+                    color: nth($colores, 2);
+                    font-size: 20px;
+                    text-align: start;
+                }
+                h3{
+                    padding: 10px;
+                }
+                h4{
+                    margin-bottom: 30px;
+                }
+                a{
+                    text-decoration: none;
+                    font-family: 'Poppins', sans-serif;
+                    color: nth($colores, 4);
+                    background-color: nth($colores, 1);
+                    padding: 15px;
+                    &:hover{
+                        background-color: nth($colores, 2);
+                        transition-duration: 2s;
+                    }
+                }
+            }
+        }
+    }
+}

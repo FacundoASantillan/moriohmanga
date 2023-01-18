@@ -1,0 +1,24 @@
+/*VARIABLES*/
+$titulo-principal: font-weight 700;
+$titulo-secundario: font-weight 500;
+
+/*LISTA*/
+$colores: 
+#8f1a26
+#e1aa47
+grey
+white
+black;
+
+/*EXTEDN*/
+%grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+/*MIXING*/
+
+@mixin flex ($flex, $aling){
+    display: $flex;
+    justify-content: $aling;
+}
