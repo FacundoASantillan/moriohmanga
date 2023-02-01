@@ -51,9 +51,9 @@ header nav div {
         transition-duration: 3s; }
 
 main .hero {
-  width: 100rem;
+  width: 1300px;
   display: flex;
-  justify-content: end; }
+  justify-content: center; }
 
 main .productos-index div h3 {
   font-size: 40px;
@@ -397,7 +397,7 @@ footer {
     justify-content: space-between; }
     header nav div a img {
       width: 110px;
-      margin-right: 150px; }
+      margin-right: 50px; }
     header nav div .buscar {
       padding-top: 45px;
       position: relative;
