@@ -1,4 +1,9 @@
 main{
+    .hero{
+        width: 100rem;
+        display: flex;
+        justify-content: end;
+    }
     .productos-index{
         div{
             h3{

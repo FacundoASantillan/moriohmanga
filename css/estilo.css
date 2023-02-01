@@ -44,8 +44,16 @@ header nav div {
     header nav div ul li a {
       text-decoration: none;
       font-family: 'Poppins', sans-serif;
-      color: grey;
-      margin: 10px; }
+      margin: 10px;
+      color: grey; }
+      header nav div ul li a:hover {
+        color: #8f1a26;
+        transition-duration: 3s; }
+
+main .hero {
+  width: 100rem;
+  display: flex;
+  justify-content: end; }
 
 main .productos-index div h3 {
   font-size: 40px;
@@ -357,10 +365,81 @@ footer {
       list-style: none;
       position: relative;
       top: 20px;
-      right: 45px; }
+      right: 30px; }
       footer .masinfo-titulo div ul li a {
         text-decoration: none;
         color: #8f1a26; }
+        footer .masinfo-titulo div ul li a:hover {
+          color: #e1aa47;
+          transition-duration: 3s; }
+
+@media screen and (max-width: 1256px) {
+  /*---------- HEADER ----------*/
+  header nav div {
+    display: flex;
+    justify-content: space-between; }
+    header nav div a img {
+      width: 110px;
+      margin-right: 100px; }
+    header nav div .buscar {
+      padding-top: 45px;
+      position: relative;
+      left: 20px;
+      margin-right: 100px; }
+      header nav div .buscar input {
+        width: 550px;
+        height: 40px; } }
+
+@media screen and (max-width: 1228px) {
+  /*---------- HEADER ----------*/
+  header nav div {
+    display: flex;
+    justify-content: space-between; }
+    header nav div a img {
+      width: 110px;
+      margin-right: 150px; }
+    header nav div .buscar {
+      padding-top: 45px;
+      position: relative;
+      left: 20px; }
+      header nav div .buscar input {
+        width: 550px;
+        height: 40px; } }
+
+@media screen and (max-width: 1080px) {
+  /*---------- HEADER ----------*/
+  header nav div {
+    display: flex;
+    justify-content: space-between; }
+    header nav div a img {
+      width: 98px;
+      margin-right: 150px; }
+    header nav div .buscar {
+      padding-top: 45px;
+      position: relative;
+      left: 20px; }
+      header nav div .buscar input {
+        width: 500px;
+        height: 40px; }
+    header nav div ul {
+      margin-left: 80px; }
+      header nav div ul li a {
+        font-size: 15px;
+        margin: 18px; } }
+
+@media screen and (max-width: 743px) {
+  /*---------- MAIN ----------*/
+  /*---------- INDEX ---------*/
+  main .hero {
+    justify-content: center; }
+  main .productos-index div .mas ul li a {
+    font-size: 30px;
+    left: 450px;
+    top: 2px; }
+  main .catalogo-index {
+    position: relative;
+    left: 300px;
+    grid-template-columns: auto auto; } }
 
 @media screen and (max-width: 578px) {
   /*---------- HEADER ----------*/
@@ -388,9 +467,10 @@ footer {
     left: 15px; }
   main .productos-index div .mas ul li a {
     font-size: 20px;
-    left: 20px;
+    left: 200px;
     top: 2px; }
   main .catalogo-index {
+    left: 150px;
     display: grid;
     grid-template-columns: auto;
     justify-content: center; }
@@ -457,3 +537,11 @@ footer {
       margin-bottom: 150px; }
     footer .masinfo-titulo {
       margin-bottom: 10px; } }
+
+@media screen and (max-width: 368px) {
+  /*---------- MAIN ----------*/
+  /*---------- INDEX ---------*/
+  main .productos-index .mas ul li a {
+    font-size: 20px;
+    left: 1500px;
+    top: 2px; } }
